@@ -1,0 +1,44 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background: grey;
+}
+section{
+    background: white;
+    margin-right: auto ;
+    margin-left: auto;
+    width: 50%;
+    padding: 5px;
+}
+header{
+    background-color: white;
+    font-size:35px;
+    margin-right: auto ;
+    margin-left: auto;
+    width: 50%;
+    padding: 5px;
+}
+nav{
+    background: #333;
+    width: 50%;
+    margin-right: auto ;
+    margin-left: auto;
+    padding: 5px;
+    color: white;
+
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+}
+nav ul li{
+     display: inline-block;
+     margin-right: 10px;
+}
+nav ul li a{
+    color: white;
+}
+table{
+    width: 100%;
+}
