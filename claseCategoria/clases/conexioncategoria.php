@@ -12,7 +12,7 @@ class Conexion {
 
     // Constructor
     public function __construct() {
-        $this->host = "localhost:4306";
+        $this->host = "localhost:8080";
         $this->usuario = "root";
         
         $this->contra = "";
