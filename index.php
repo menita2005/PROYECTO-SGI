@@ -20,7 +20,7 @@
             <div class="col-md-9 col-lg-8 mx-auto">
               <h3 class="login-heading mb-4">Login de usuario</h3>
               <?php 
-                      include("conexion.php");
+                      include("conexionIndex.php");
                       include ("controladorlogin/controladorlogin.php");?>
               
               <form method="post" action="">

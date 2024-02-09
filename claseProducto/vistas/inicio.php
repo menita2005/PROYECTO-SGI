@@ -22,7 +22,7 @@ $resultado = $controlador->index();
             <td><?php echo $row['NombreP']?></td>
             <td><?php echo $row['Descripcion']?></td>
             <td><?php echo $row['Precio']?></td>
-            <td><?php echo $row['CantidadStock']?></td>
+            <td><?php echo $row['stock']?></td>
             <td><?php echo $row['NombreProveedor']?></td>
             <td><?php echo $row['Categoria']?></td>
             <td>

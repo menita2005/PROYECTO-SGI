@@ -1,5 +1,6 @@
 <?php
 include_once("clases/productos.php");
+include_once("../claseProveedor/clases/proveedor.php");
 
 class ControladorProductos {
 
@@ -14,14 +15,14 @@ class ControladorProductos {
         return $resultado;
     }
 
-    public function crear($IDproducto, $NombreP, $Descripcion, $Precio, $IDstock, $IDProveedor, $IDCategoria){
+    public function crear($IDproducto, $NombreP, $Descripcion, $Precio, $stock, $IDProveedor, $IDCategoria){
         // Validar y sanitizar datos aquí si es necesario
 
         $this->Productos->set("IDproducto", $IDproducto);
         $this->Productos->set("NombreP", $NombreP);
         $this->Productos->set("Descripcion", $Descripcion);
         $this->Productos->set("Precio", $Precio);
-        $this->Productos->set("IDstock", $IDstock);
+        $this->Productos->set("stock", $stock);
         $this->Productos->set("IDProveedor", $IDProveedor);
         $this->Productos->set("IDCategoria", $IDCategoria);
 

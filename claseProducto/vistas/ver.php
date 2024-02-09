@@ -20,7 +20,7 @@ if(isset($_GET['IDproducto'])){
             <td><?php echo $row['NombreP']?></td>
             <td><?php echo $row['Descripcion']?></td>
             <td><?php echo $row['Precio']?></td>
-            <td><?php echo $row['IDstock']?></td>
+            <td><?php echo $row['stock']?></td>
             <td><?php echo $row['IDProveedor']?></td>
             <td><?php echo $row['IDCategoria']?></td></tr>
     </table>

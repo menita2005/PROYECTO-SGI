@@ -1,5 +1,5 @@
 <?php
-include_once('conexioncategoria.php');
+include_once('../conexionBs.php');
 
 class Categoria {
    
