@@ -38,13 +38,8 @@ if(isset($_POST['enviar'])){
     <input class="form-control"type="number" name="stock" required>
     <br><br>
     <label class="form-label">IDProveedor</label>
-       <select name="IDProveedor" >
-       <php while ($row = mysqli_fetch_array($resultado)) { 
-           echo '<option value="'.$row[IDProveedor].'">'.$row[Nombre].'</option>';
-       }?>
-      
-      
-    </select>
+    <input class="form-control"type="number" name="IDProveedor" required>
+       
     <br><br>
     <label class="form-label">IDCategoria</label>
     <input class="form-control"type="number" name="IDCategoria" required>

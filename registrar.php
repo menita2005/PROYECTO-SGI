@@ -22,7 +22,7 @@
           <div class="card-body p-4 p-sm-5">
             <h5 class="card-title text-center mb-5 fw-light fs-5">Registro</h5>
             <?php 
-                      include("conexion.php");
+                      include("conexioBs.php");
                       include "controladorlogin/controladorregistro.php"?>
             <form action="" method="post">
 
